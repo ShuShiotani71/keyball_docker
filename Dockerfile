@@ -3,7 +3,7 @@ FROM ghcr.io/qmk/qmk_cli@sha256:2dc05fc9f32efebd6b05c2b8676ee548358bc7e151e9dbf4
 # git config
 ARG GIT_USERNAME="ShuShiotani71"
 ARG GIT_EMAIL="shu.shiotani70@gmail.com"
-ARG KEYBALL_REPO="https://github.com/ShuShiotani71/keyball.git"
+ARG KEYBALL_REPO="git@github.com:ShuShiotani71/keyball.git"
 # keyball config
 ARG KEYBALL_PATH="keyball/keyball39"
 ARG KEYMAP="shiotani"
