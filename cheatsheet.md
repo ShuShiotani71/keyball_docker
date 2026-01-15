@@ -7,6 +7,7 @@ docker container run -it --name <container_name> <image_name> bash
 docker container stop <container_name>
 docker container start <container_name>
 docker container run -it --privileged -v /dev:/dev:rw --name <container_name> <image_name> bash
+docker container run -it --privileged -v /dev:/dev:rw --name <container_name> -p <host_port:container_port> <image_name> bash
 docker exec -it <container_name> bash
 
 # keyball stuffs
